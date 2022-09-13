@@ -1,0 +1,21 @@
+.heading {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.heading h1 {
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 50px;
+}
+.heading p {
+  color: #fff;
+  opacity: 0.8;
+}
+textarea,
+input {
+  border: none;
+  outline: none;
+  background: none;
+}

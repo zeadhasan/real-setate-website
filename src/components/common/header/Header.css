@@ -1,6 +1,6 @@
 header {
   background-color: #fff;
-  height: 11vh;
+  height: 12vh;
   box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
   padding: 15px 0;
   position: sticky;
@@ -10,6 +10,7 @@ header {
 header img {
   width: 170px;
 }
+
 header a {
   margin-left: 30px;
   transition: 0.5s;
@@ -55,7 +56,7 @@ header .toggle {
     display: block;
     margin-top: 20px;
   }
-  header .small{
+  header .small {
     position: absolute;
     top: 10vh;
     left: 0;
@@ -63,7 +64,7 @@ header .toggle {
     background-color: #27ae60;
     padding: 20px;
   }
-  header li a{
+  header li a {
     display: inline-block;
     margin-bottom: 20px;
     color: #fff;
