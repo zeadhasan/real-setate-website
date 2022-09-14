@@ -36,12 +36,33 @@ button {
   transition: 1s;
   color: #000;
   cursor: pointer;
-  font-weight: bold; 
+  font-weight: bold;
 }
-button:hover{
+button:hover {
   background-color: #27ae60;
   border: none;
   color: #ffffff;
   cursor: pointer;
   font-weight: bold;
+}
+.background {
+  padding: 80px 0;
+  position: relative;
+  border-color: #f7f9fc;
+}
+.grid5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+}
+label{
+  color: #2d3954;
+  font-size: 14px;
+}
+.mtop{
+  margin-top: 50px;
+}
+h4{
+  font-weight: 500;
+  margin-top: 10px;
 }
